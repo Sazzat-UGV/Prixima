@@ -27,6 +27,11 @@ img {
     width: 100%;
 }
 
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+}
+
 /* NAVBAR */
 .top-nav {
     background-color: #ff4d29;
@@ -89,4 +94,11 @@ img {
 .btn-brand:hover {
     color: #ffffff;
     background-color: #e04122;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/bg_banner1.jpg);
+}
+.slide2 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/bg_banner2.jpg);
 }
