@@ -59,6 +59,11 @@ img {
     border-radius: 100%;
 }
 
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .social-links a:hover {
     background-color: #ffffff;
     color: #ff4d29;
@@ -79,9 +84,10 @@ img {
     color: #ff4d29
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: 17px;
 }
+
 /* BTN */
 .btn {
     padding: 9px 24px;
@@ -135,6 +141,33 @@ img {
 }
 
 .owl-next:hover,
-.owl-prev:hover{
+.owl-prev:hover {
     background-color: #ff4d29 !important;
-} 
+}
+
+/* About */
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.info-box img {
+    width: 90px;
+    margin-right: 24px;
+}
+
+/* milestone */
+#milestone {
+    background: linear-gradient(rgba(255, 77, 41, 0.9), rgba(255, 77, 41, 0.9)), url(../img/bg_banner2.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color: #ffffff;
+}
+
+#milestone .display-4 {
+    font-weight: 600;
+}
+
+/* services */
