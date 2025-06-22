@@ -38,8 +38,18 @@ $(document).ready(function () {
       1140: {
         items: 2,
         dots: true,
-        center: true
+        center: true,
       },
     },
+  });
+  // reviews slider
+  $("#reviews-slider").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: true,
+    smartSpeed: 800,
+    autoplay: true,
+    items: 1,
   });
 });
