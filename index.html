@@ -75,7 +75,7 @@
               <a class="nav-link" href="#blog">Blog</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-brand ms-lg-3">Contact Us</a>
+          <a href="#" class="btn btn-brand ms-lg-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</a>
         </div>
       </div>
     </nav>
@@ -506,6 +506,49 @@
         </div>
       </div>
     </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+      <div class="container-fluid">
+     <div class="row">
+         <div class="col-lg-4 bg-cover" style="background-image: url(./img/c2.jpg); min-height: 300px;"></div>
+<div class="col-lg-8">
+  <form action="" class="row p-lg-5 gy-3">
+    <h1>Get In Touch</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ipsam.</p>
+    <div class="col-lg-6">
+    <label for="first_name" class="form-label">First_Name</label>
+    <input type="text" class="form-control" name="" id="first_name" placeholder="Jon" required>
+    </div>
+    <div class="col-lg-6">
+    <label for="last_name" class="form-label">Last Name</label>
+    <input type="text" class="form-control" name="" id="last_name" placeholder="Doe" required>
+    </div>
+    <div class="col-12">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" name="" id="email" placeholder="jondoe@gmail.com" required>
+    </div>
+    <div class="col-12">
+    <label for="message" class="form-label">Message</label>
+    <textarea class="form-control" name="" id="message" rows="5" placeholder="Write your message here..." required></textarea> 
+    </div>
+    <div class="col-12">
+      <button type="button" class="btn btn-brand">Send Message</button>
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+  </form>
+</div>
+        </div>
+     </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
